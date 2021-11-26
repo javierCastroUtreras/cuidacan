@@ -1,0 +1,143 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    border-bottom: 2px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+/* styles nav */
+
+.listaLinks{
+    list-style: none;
+    display: flex;
+}
+
+.listaLinks li{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+a{text-decoration: none;}
+
+
+header img{ height: 100%;}
+
+
+h2{
+    font: oblique bold 120% cursive;
+}
+
+
+form{
+    height: 500px;
+  
+}
+
+.container{
+    text-align: center;
+    margin: 350px;
+    margin-top: 0px;
+    height: 200px;
+    width: 800px;
+    text-decoration-color: salmon;
+  }
+  
+
+  
+  input{
+    height: 50px;
+    width: 500px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 5px; 
+    background-color: salmon;
+    
+  }
+  
+  textarea{
+    
+    width: 500px;
+    margin: 5px;
+    border:0px;
+    border-radius: 5px; 
+    background-color: salmon;
+  }
+  
+  button{
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px; 
+    border: 0;
+    background-color: salmon;
+  
+  }
+  
+  .imagen1{
+    margin: 0px;
+    top:460px;
+    background-image: url("assets/chihuahua.png");
+    left: 200px;
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  
+  .imagen2{
+    margin: 0px;
+    top: 300px;
+    background-image: url("assets/grupo2.png");
+    left: 1000px;
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+
+
+  .nosotros{
+      height: 50px;
+      width: 500px;
+      margin: 350px;
+      margin-top: 0px;
+      top:0px;
+      text-align: center;
+    
+  }
+
+  
+  h1 {
+    text-align: center;
+    font: oblique bold 200% cursive;
+   
+  }
+  p {
+    text-align: center;
+    font: oblique bold 120% cursive;
+   
+  }
+
+  .imagen3{
+    margin: 0px;
+    top: 200px;
+    background-image: url("assets/grupo.png");
+    left: 900px;
+    width: 450px;
+    height: 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+  }

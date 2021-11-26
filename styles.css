@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+header{
+    border-bottom: 2px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+/* styles nav */
+
+.listaLinks{
+    list-style: none;
+    display: flex;
+}
+
+.listaLinks li{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+a{text-decoration: none;}
+
+
+header img{ height: 100%;}
+
+/* slider content */
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 85vh;
+}
+
+.slider .slide1{ 
+    position:absolute;   
+    width: 100%;
+    height: 100%; 
+  
+    
+    background-size: 110% 130%;
+    background-repeat: no-repeat;
+    
+    background-image: url("assets/slide1.jpg");
+    background-position: -50px -100px;
+
+   
+}
+
+.slide1 pre{
+    position: absolute;
+    top:100px;
+    left: 350px;
+    font-size: 1.5rem;
+    
+}
+
+.slider .slide2{
+
+     position:absolute;
+     
+     width: 100%;
+     height: 100%;
+
+     transition: all 2.5s;
+
+     background-image: url("assets/slide3.jpg");
+     background-size: 110% 150%;
+     background-repeat: no-repeat;
+     background-position: 0 -100px;
+    
+     
+ }
+
+ .slide2 pre{
+     font-size: 1.5rem;
+     position: absolute;
+     top: 200px;
+     left: -150px;
+ }
+ 
+
+.hide{
+    opacity: 0;
+}
+
+.container{
+  text-align: center;
+  margin: 50px;
+  height: 1000px;
+  width: 800px;
+ 
+}
+
+
+
+input{
+  height: 50px;
+  width: 500px;
+  margin: 5px;
+  border: 0px;
+  border-radius: 5px; 
+  background-color: salmon;
+}
+
+textarea{
+  
+  width: 500px;
+  margin: 5px;
+  border:0px;
+  border-radius: 5px; 
+  background-color: salmon;
+}
+
+button{
+  width: 250px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px; 
+  background-color: salmon;
+
+}
+
+.imagen1{
+  margin: 0px;
+  top:500px;
+  background-image: url("assets/chihuahua.png");
+  left: 50px;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.imagen2{
+  margin: 0px;
+  top:500px;
+  background-image: url("assets/pena.png");
+  left: 700px;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  position: relative;
+}
